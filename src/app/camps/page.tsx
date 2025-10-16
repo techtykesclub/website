@@ -1,2 +1,27 @@
 import camps from "@/data/camps.json";
-export default function CampsPage(){return(<div className="space-y-6"><h1 className="text-3xl font-bold">Camps</h1><div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">{camps.map((c,i)=>(<article key={i} className="card"><h3 className="text-lg font-semibold">{c.title}</h3><p className="opacity-80 mt-1">{c.summary}</p><div className="mt-3"><a className=\"btn\" href={c.signupUrl||\"#\"} target=\"_blank\">Sign up</a></div></article>))}</div></div>)}
+
+export default function CampsPage() {
+  return (
+    <div className="space-y-6">
+      <h1 className="text-3xl font-bold">Camps</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {camps.map((c, i) => (
+          <article key={i} className="card">
+            <h3 className="text-lg font-semibold">{c.title}</h3>
+            <p className="opacity-80 mt-1">{c.summary}</p>
+            <div className="mt-3">
+              <a
+                className="btn"
+                href={c.signupUrl || "#"}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Sign up
+              </a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  );
+}
