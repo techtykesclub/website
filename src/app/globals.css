@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b0b0c;
+  --ink: #e7e8ea;
+  --card: #111214;
+  --brand: #22d3ee;
+}
+html { background: var(--bg); color: var(--ink); }
+.container { @apply max-w-6xl mx-auto px-4 sm:px-6; }
+.card { @apply rounded-2xl bg-[#111214] p-6 shadow-lg; }
+.btn { @apply inline-flex items-center gap-2 rounded-xl px-4 py-2 bg-cyan-400 text-black font-semibold hover:bg-cyan-300 transition; }
+.kicker { @apply text-xs uppercase tracking-widest text-cyan-300; }

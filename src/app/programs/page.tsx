@@ -1,0 +1,2 @@
+import programs from "@/data/programs.json";
+export default function ProgramsPage(){return(<div className="space-y-6"><h1 className="text-3xl font-bold">Programs</h1><div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">{programs.map((p,i)=>(<article key={i} className="card"><h3 className="text-lg font-semibold">{p.title}</h3><p className="opacity-80 mt-1">{p.summary}</p><ul className="list-disc list-inside mt-2 opacity-90">{p.topics.map((t,idx)=>(<li key={idx}>{t}</li>))}</ul></article>))}</div></div>)}

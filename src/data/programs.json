@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Pre\u2011Coding (K\u20112)",
+    "summary": "Screen\u2011free logic, pattern recognition, and teamwork through board\u2011game\u2011based activities.",
+    "topics": [
+      "Sequencing & algorithms",
+      "If\u2011Then thinking",
+      "Patterns & deduction",
+      "Collaboration & communication"
+    ]
+  },
+  {
+    "title": "Beginner Coding (Grades 3\u20115)",
+    "summary": "Scratch projects that build loops, conditionals, variables, and game design fundamentals.",
+    "topics": [
+      "Scratch",
+      "Loops & conditionals",
+      "Events & variables",
+      "Game design"
+    ]
+  },
+  {
+    "title": "AI & Entrepreneurship (Middle School)",
+    "summary": "Build simple apps, practice idea pitching, and explore AI responsibly.",
+    "topics": [
+      "Prototyping",
+      "Prompting & ethics",
+      "UX & iteration",
+      "Pitch presentations"
+    ]
+  }
+]

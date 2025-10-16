@@ -1,0 +1,35 @@
+[
+  {
+    "q": "Who can enroll?",
+    "a": [
+      "Elementary and middle\u2011school students in partner school districts. We offer Pre\u2011Coding (K\u20112), Beginner Coding (3\u20115), and AI/Entrepreneurship (6\u20118).",
+      "If your school isn\u2019t listed yet, contact us to bring Tech Tykes to your campus."
+    ]
+  },
+  {
+    "q": "Do students need a laptop?",
+    "a": [
+      "K\u20112 Pre\u2011Coding is screen\u2011free.",
+      "For Grades 3\u20138, students should bring a charged laptop unless your school provides one."
+    ]
+  },
+  {
+    "q": "What is your cancellation policy?",
+    "a": [
+      "Up to 2 weeks before the start of class: 6% cancellation fee.",
+      "Up to 1 week before class begins: 20% cancellation fee.",
+      "After class begins: no refunds."
+    ]
+  },
+  {
+    "q": "What will students learn?",
+    "a": [
+      "Foundational problem\u2011solving, algorithmic thinking, and collaboration.",
+      "Depending on the program: Scratch, project building, presentations, and age\u2011appropriate introductions to AI concepts."
+    ]
+  },
+  {
+    "q": "Where are classes held?",
+    "a": "On\u2011campus after school at participating schools across the Bay Area. Locations vary by session."
+  }
+]
